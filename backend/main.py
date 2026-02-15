@@ -32,7 +32,7 @@ async def ask_ai(
 ):
     try:
         response = client.chat.completions.create(
-            model="gpt-4o-mini",
+            model="gpt-5",
             messages=[
                 {"role": "system", "content": "You are a travel expert at MakeMyTrip. Provide concise, expert travel advice."},
                 {"role": "user", "content": prompt}
